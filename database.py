@@ -40,6 +40,7 @@ class Profile(peewee.Model):
 
     timeout = peewee.BigIntegerField(default=0)  # /preventcatch timestamp
     cataine_active = peewee.BigIntegerField(default=0)  # cataine timestamp
+    vote_claim_time = peewee.BigIntegerField(default=0) # vote claim timestamp
 
     battlepass = peewee.SmallIntegerField(default=0)  # battlepass level
     progress = peewee.SmallIntegerField(default=0)  # battlepass progress (for do X times levels)
