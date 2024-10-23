@@ -997,7 +997,7 @@ async def on_message(message):
                 elif random.randint(0, 50000) == 0:
                     button = Button(label="DAVE DISCORD 😀💀⚠️🥺", url="https://discord.gg/staring", style=ButtonStyle.danger)
                 elif random.randint(0, 5000000) == 0:
-                    button = Button(label="JOHN AND DAVE HAD A SON 💀🤠😀⚠️🥺", url="https://discord.gg/staring", style=ButtonStyle.green)
+                    button = Button(label="JOHN AND DAVE HAD A SON 🧠💀🤠😀⚠️🥺", url="https://discord.gg/staring", style=ButtonStyle.green)
                 elif config.WEBHOOK_VERIFY and vote_time_user.vote_time_topgg + 43200 < time.time():
                     button = Button(emoji=get_emoji("topgg"), label=random.choice(vote_button_texts), url="https://top.gg/bot/966695034340663367/vote")
 
