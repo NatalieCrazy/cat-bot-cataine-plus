@@ -2031,11 +2031,13 @@ async def on_message(message: discord.Message):
                 elif random.randint(0, 50000) == 0:
                     button = Button(
                         label="DAVE DISCORD 😀💀⚠️🥺",
+                        url="https://discord.gg/staring",
                         style=ButtonStyle.danger,
                     )
                 elif random.randint(0, 5000000) == 0:
                     button = Button(
                         label="JOHN AND DAVE HAD A SON 💀🤠😀⚠️🥺",
+                        url="https://discord.gg/staring",
                         style=ButtonStyle.green,
                     )
 
